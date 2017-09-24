@@ -1,2 +1,3 @@
 # AndroidStudio
-Some basic practices on Android studios
+Learning coding on Android Studios.
+Some basic practices that I have been doing.
