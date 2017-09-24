@@ -3,8 +3,10 @@ package com.delta.controlflow;
 import android.util.Log;
 
 /**
- * Created by learnovate on 2/27/14.
+ * Adapted from "Become an Android Developer from Scratch" 
+ * on Udemy
  */
+
 public class ControlFlow {
 
     char[] alphabet = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
