@@ -1,0 +1,24 @@
+#Internal package file, do not edit.
+#Sun Sep 24 12:44:05 SGT 2017
+2.base=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_
+5.file=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_
+6.file=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/ic_launcher.png
+2.set=ANDROID_RESOURCE
+4.base=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+count=7
+0.file=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_/res/menu/control_flow.xml
+5.base=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_
+4.set=DEX
+6.base=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_
+1.file=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_/resources.arsc
+1.set=ANDROID_RESOURCE
+2.file=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_/res/layout/activity_control_flow.xml
+6.set=ANDROID_RESOURCE
+0.base=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_
+3.file=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/delta.png
+3.set=ANDROID_RESOURCE
+1.base=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/resources-debug.ap_
+4.file=/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+0.set=ANDROID_RESOURCE

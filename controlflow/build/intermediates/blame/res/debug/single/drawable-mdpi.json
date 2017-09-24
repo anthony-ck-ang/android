@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/merged/debug/drawable-mdpi/delta.png",
+        "source": "/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/src/main/res/drawable-mdpi/delta.png"
+    },
+    {
+        "merged": "/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",
+        "source": "/Users/anthonyang/Desktop/androidProjects/delta-controlflow/controlflow/src/main/res/drawable-mdpi/ic_launcher.png"
+    }
+]
