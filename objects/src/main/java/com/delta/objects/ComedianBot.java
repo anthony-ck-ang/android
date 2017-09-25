@@ -28,7 +28,8 @@ public class ComedianBot extends JokeBotService {
 
     public ComedianBot(String name) {
         setRobotName(name); //replace default name
-        this.jokesList = JokeWriterDataStore.getJokeListTwo();
+        this.jokesList = JokeWriterDataStore.getJokeListTwo(); //get joke list directly from dataStore
+        //this.jokesList = JokeBotService.jokesList; // get jokeList from JokeBotService
     }
 
     public void performShow() {
