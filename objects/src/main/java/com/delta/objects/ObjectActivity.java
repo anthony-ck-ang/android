@@ -23,7 +23,7 @@ public class ObjectActivity extends Activity{
         //execute pickJoke() in jokeBotService class and say/log joke
         jokeBotService.pickJoke();
 
-        //input a second list of jokes
+        //input a second list of jokes (optional)
         jokeBotService.setJokesList(JokeWriterDataStore.getJokeListTwo());
 
         //performance from drHilarious
