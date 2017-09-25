@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class JokeBotService extends Bot{
 
     //share this list
-    private static ArrayList<JokeBean> jokesList = null;
+    protected static ArrayList<JokeBean> jokesList = null;
 
     public JokeBotService(ArrayList<JokeBean> jokesList) {
         this.jokesList = jokesList;
