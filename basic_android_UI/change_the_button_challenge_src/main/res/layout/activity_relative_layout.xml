@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004488">
+    
+    <ImageView
+        android:src="@drawable/david"
+        android:scaleType="centerInside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:background="#55000000"
+        android:id="@+id/centerText"
+        android:layout_centerInParent="true"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:text="Relative Layout Rules!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="#FFFFFF"
+        android:layout_margin="40dp"
+        android:padding="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/centerText"
+        android:text="Push me!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
