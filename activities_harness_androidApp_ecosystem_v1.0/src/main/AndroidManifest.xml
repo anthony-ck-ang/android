@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anthonyang.activities">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/test_icon"
+        android:label="AnthonyActivities"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.anthonyang.activities.FirstActivity"
+            android:label="AnthonyActivities">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <!-- register activity -->
+        <activity
+            android:name="com.anthonyang.activities.SecondActivity"
+            android:label="AnthonyActivities">
+            <!-- register implicit intent -->
+            <intent-filter>
+                <!-- acts like a listener -> give user option to use app or browser from web link clicked -->
+                <data
+                    android:host="angstDotCom.com"
+                    android:scheme="http" />
+                <action android:name="android.intent.action.VIEW" /> <!-- action, ACTION_VIEW-->
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.anthonyang.activities.DetailActivity"
+            android:label="AnthonyActivities" />
+        <!--<activity-->
+        <!--android:name="com.anthonyang.activities.SecondActivity"-->
+        <!--android:label="@string/app_name" />-->
+        <!--<activity-->
+        <!--android:name="com.anthonyang.activities.DetailActivity"-->
+        <!--android:label="@string/app_name" />-->
+    </application>
+
+</manifest>
