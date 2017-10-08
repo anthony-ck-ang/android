@@ -25,7 +25,7 @@ enum DownloadStatus {
     IDLE, PROCESSING, NOT_INITIALISED, FAILED_OR_EMPTY, OK
 };
 
-//Generic get data class
+//general get data class
 public class GetRawData {
     private String LOG_TAG = GetRawData.class.getSimpleName();
     private String mRawUrl;
