@@ -1,0 +1,19 @@
+Working with json
+
+
+Get raw data
+————————————————————————————————
+1. Firstly, Validate json data or url at jsonlint.com
+e.g.
+https://api.flickr.com/services/feeds/photos_public.gne?tags=android,nougat&format=json$nojsoncallback=1
+
+2. For the steps, refer to GetRawData.java
+
+
+Convert raw data to Java objects
+————————————————————————————————
+ETL (Extract + transform)
+
+1. Take note of the keys in the json that you want to extract and save in objects
+(excluding images as mobile devices have limited memory (heap))
+images will only be downloaded before displaying on screen
