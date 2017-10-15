@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flickr="http://schemas.android.com/apk/res-auto">
+
+    <!-- create this manually. right_click > new> menu_resource_file -->
+    <!-- search is done in the menu (add code here to do search) linked to SearchActivity.java-->
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        flickr:showAsAction="never" />
+
+    <!-- flickr:actionViewClass -> indicates where the functionality comes from -->
+    <item
+        android:id="@+id/search_view"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="1"
+        android:title="@string/search_menu"
+        flickr:actionViewClass="android.support.v7.widget.SearchView"
+        flickr:showAsAction="always" />
+</menu>

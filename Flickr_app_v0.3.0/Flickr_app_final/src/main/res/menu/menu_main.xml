@@ -1,0 +1,24 @@
+<!-- namespace xmlns:flickr (similar to packages) -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:flickr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--Menu of main activity -->
+    <!-- add something on toolbar -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        flickr:showAsAction="never"
+        android:title="@string/action_settings" />
+
+    <!-- @android:drawable/ic_menu_search -> android built in icons
+    android:title="Search" -> alt+return ->extract string ->strings.xmls
+    flickr:showAsAction="always" -> always show icon
+    -->
+    <item android:id="@+id/menu_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/action_search"
+        android:orderInCategory="1"
+        flickr:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity"
+        tools:showIn="@layout/activity_main">
+
+    <!--
+    Editing content_main.xml and content xml files in general
+        When editing any activity xml file,
+        instead edit the corresponding content xml file.
+
+        This applies to any new Blank Activities created too.
+        instead of editing the activity xml file for that activity;
+        you should instead edit the content xml file.
+    -->
+    <include android:id="@+id/app_bar" layout="@layout/toolbar"/> <!--add toolbar.xml -->
+
+    <view
+        android:id="@+id/recycler_view"
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="android.support.v7.widget.RecyclerView"/>
+</RelativeLayout>
+<!--</android.support.constraint.ConstraintLayout>-->
