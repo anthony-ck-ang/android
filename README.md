@@ -3,6 +3,18 @@ Having some fun coding on Android Studios. :smile: :white_check_mark:
 
 These are some basic practices that I have been doing.
 
+#### FLICKR Browser app 
+```
+    Retrieve and display a list of pictures and details from FLICKR based on your search query
+```   
+#### Adopt a pet app
+```
+    Display different views (with ratings) of cute furry animals up for adoption
+```   
+#### Comedian Bot app
+```
+    Randomly picks and tell a joke in the console
+```
 
 ## Setting up Android Studios
 
@@ -17,9 +29,9 @@ These are some basic practices that I have been doing.
 ```
 3. Open Android Studios 
    - Select 'Open an existing Android Studio project'
-     - Navigate and choose the cloned file from your directory
+     - Navigate and choose the cloned project (file) from your directory
       - Run (Green arrow button) with either:
-        - GenieMotion
+        - GenyMotion
         - Existing Android mobile device (Connect it to your machine with a USB cable)
           - Choose your device name under 'Connected Device' (When menu pops up) 
        
@@ -29,7 +41,7 @@ These are some basic practices that I have been doing.
    - Unzip and navigate to the project you want to work with
    - Copy the src folder and replace the existing src folder created in your "Start a new Android Studio Project"
 
-## For Gradle configuration
+## For Gradle Configuration
 
 1. In Android Studios, navigate to the Android tab
 2. Under Gradle Scripts, open build.gradle(Module:app)
