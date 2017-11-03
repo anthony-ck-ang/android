@@ -7,6 +7,8 @@ These are some basic practices that I have been doing.
 ```
     Retrieve and display a list of pictures and details from FLICKR based on your search query
 ```   
+![pt2017_11_03_14_40_47](https://user-images.githubusercontent.com/28585087/32362546-21f57830-c0a5-11e7-80ef-74d32cff11fc.jpg)
+
 #### Adopt a pet app
 ```
     Display different views (with ratings) of cute furry animals up for adoption
