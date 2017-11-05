@@ -11,7 +11,7 @@ These are some basic practices that I have been doing.
 
 #### otherLang app
 ```
-    Present different catergories of common words in default and other language through multiple screens
+    Present (in text) and play (audio) common words from different catergories, in default and an other language through multiple screens
 ```   
 ![pt2017_11_03_21_19_25](https://user-images.githubusercontent.com/28585087/32375523-e8026682-c0dc-11e7-8e91-c2108b715b34.jpg)
 #### Adopt a pet app
