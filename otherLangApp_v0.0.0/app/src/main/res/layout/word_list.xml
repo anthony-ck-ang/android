@@ -2,11 +2,11 @@
 <ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/list"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:drawSelectorOnTop="true"
-    tools:context="com.example.android.otherLang.NumbersActivity"/>
+    android:orientation="vertical"
+    tools:context="com.example.android.otherLang.NumbersActivity" />
 
     <!--<GridView xmlns:android="http://schemas.android.com/apk/res/android"-->
     <!--android:id="@+id/grid_view"-->
@@ -19,8 +19,8 @@
     <!--android:stretchMode="columnWidth"-->
     <!--android:verticalSpacing="10dp" />-->
 
-<!--Reuse this list view for all the other activities
-    Set the following in all other activity.java class to reuse this view
-    -> setContentView(R.layout.word_list);
- -->
+    <!--Reuse this list view for all the other activities
+        Set the following in all other activity.java class to reuse this view
+        -> setContentView(R.layout.word_list);
+     -->
 
