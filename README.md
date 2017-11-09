@@ -13,7 +13,8 @@ These are some basic practices that I have been doing.
 ```
    Present (in text) and play (audio) common words from different categories, in default and other language through multiple screens
 ```   
-![pt2017_11_03_21_19_25](https://user-images.githubusercontent.com/28585087/32375523-e8026682-c0dc-11e7-8e91-c2108b715b34.jpg)
+![pt2017_11_09_16_11_37](https://user-images.githubusercontent.com/28585087/32595020-241ece40-c569-11e7-9db8-4a6cebff9778.jpg)
+
 #### Adopt a pet app
 ```
     Display different views (with ratings) of cute furry animals up for adoption
