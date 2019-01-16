@@ -71,7 +71,6 @@ public class CountriesActivity extends AppCompatActivity {
         words.add(new Word("japan", "Rì běn\n" + "日本", R.drawable.japan, R.raw.countries_japan_chn));
         words.add(new Word("germany", "Dé guó\n" + "德国", R.drawable.germany, R.raw.countries_germany_chn));
         words.add(new Word("united kingdom", "Yīng guó\n" + "英国", R.drawable.united_kingdom, R.raw.countries_unitedkingdom_chn));
-        words.add(new Word("india", "Yìn dù\n" + "印度", R.drawable.india, R.raw.countries_india_chn));
         words.add(new Word("france", "Fà guó\n" + "法国", R.drawable.france, R.raw.countries_france_chn));
         words.add(new Word("brazil", "Bā xī\n" + "巴西", R.drawable.brazil, R.raw.countries_brazil_chn));
         words.add(new Word("italy", "Yì dà lì\n" + "意大利", R.drawable.italy, R.raw.countries_italy_chn));
